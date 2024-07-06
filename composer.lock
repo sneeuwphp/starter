@@ -1,0 +1,62 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "5bf614d5f330abd4129f7369046d85bd",
+    "packages": [
+        {
+            "name": "sneeuwphp/sneeuw",
+            "version": "dev-main",
+            "dist": {
+                "type": "path",
+                "url": "../sneeuw",
+                "reference": "bdba648edc50592945cfab83be9543731f05f392"
+            },
+            "require": {
+                "php": "^8.3"
+            },
+            "require-dev": {
+                "vimeo/psalm": "^5.25"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Sneeuw\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Julian Ollivieira",
+                    "email": "julian.ollivieira@gmail.com"
+                }
+            ],
+            "description": "❄️  Sneeuw is a modern web framework that simplifies creating full-stack applications.",
+            "keywords": [
+                "framework",
+                "php",
+                "sneeuw"
+            ],
+            "transport-options": {
+                "relative": true
+            }
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "sneeuwphp/sneeuw": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": "^8.3"
+    },
+    "platform-dev": [],
+    "plugin-api-version": "2.6.0"
+}
