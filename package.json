@@ -1,0 +1,12 @@
+{
+  "private": true,
+  "type": "module",
+  "devDependencies": {
+    "esbuild": "^0.23.0"
+  },
+  "dependencies": {
+    "@sneeuwphp/esbuild-plugin-sneeuw": "file:../esbuild-plugin-sneeuw",
+    "@sneeuwphp/ski": "file:../ski"
+  },
+  "packageManager": "yarn@4.3.1"
+}

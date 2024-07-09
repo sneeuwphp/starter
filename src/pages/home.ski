@@ -1,0 +1,21 @@
+new class
+{
+		public function mount(): array
+		{
+				//
+		}
+}
+---
+function h(type, props, ...children) {
+	return { type, props: props || {}, children };
+}
+
+export default () => {
+		return (
+				<main style="background-color: #09090b; width: 100vw; height: 100vh">
+						<div style="padding: 10px">
+								<pre style="color: white; margin: 0">hello from the sneeuw ❄️ page</pre>
+						</div>
+				</main>
+		);
+}
