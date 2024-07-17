@@ -1,0 +1,19 @@
+import Link from "../components/link.ski";
+
+export default async ({ children }) => {
+	return (
+		<>
+			<nav class="sm:container mx-auto py-4 flex justify-between items-center">
+				<pre>sneeuw</pre>
+				<div class="flex items-center gap-8">
+					<div class="flex items-center gap-4">
+						<Link href="https://sneeuw.dev/blog">blog</Link>
+						<Link href="https://sneeuw.dev/resources">resources</Link>
+					</div>
+					<a href="https://docs.sneeuw.dev" class="bg-white py-2 px-4 text-black">documentation</a>
+				</div>
+			</nav>
+			{children}
+		</>
+	);
+}
