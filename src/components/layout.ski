@@ -10,7 +10,7 @@ export default async ({ children }) => {
 						<Link href="https://sneeuw.dev/blog">blog</Link>
 						<Link href="https://sneeuw.dev/resources">resources</Link>
 					</div>
-					<a href="https://docs.sneeuw.dev" class="bg-white py-2 px-4 text-black">documentation</a>
+					<a href="https://docs.sneeuw.dev" class="bg-iceberg-500 text-white py-2 px-4 text-black">documentation</a>
 				</div>
 			</nav>
 			{children}

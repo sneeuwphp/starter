@@ -8,7 +8,7 @@ export default async () => {
 					<div class="flex flex-col items-center text-center">
 						<h1 class="text-zinc-50 text-3xl md:text-4xl xl:text-5xl mb-4 sm:max-w-[30ch] font-bold">the web framework for the next-generation of web applications</h1>
 						<h2 class="text-zinc-200 mb-6 sm:max-w-[50ch]">sneeuw helps you to create fast, dynamic and optimized applications with ease.</h2>
-						<a href="https://docs.sneeuw.dev" class="bg-white py-2 px-4 text-black">get started</a>
+						<a href="https://docs.sneeuw.dev" class="bg-iceberg-500 text-white py-2 px-4 text-black">get started</a>
 					</div>
 				</section>
 			</main>

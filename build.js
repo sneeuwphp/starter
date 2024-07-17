@@ -5,14 +5,7 @@ import autoprefixer from "autoprefixer";
 import sneeuw from "@sneeuwphp/esbuild-plugin-sneeuw";
 import fs from "fs";
 import chokidar from "chokidar";
-
-const tailwindConfig = {
-	content: ["./src/**/*.{html,ski}"],
-	theme: {
-		extend: {},
-	},
-	plugins: [],
-};
+import tailwindConfig from "./tailwind.config.js";
 
 const tailwindPlugin = {
 	name: "sneeuw-tailwind",

@@ -561,8 +561,8 @@ __metadata:
 
 "@sneeuwphp/ski@file:../ski::locator=root-workspace-0b6124%40workspace%3A.":
   version: 0.0.1
-  resolution: "@sneeuwphp/ski@file:../ski#../ski::hash=94c182&locator=root-workspace-0b6124%40workspace%3A."
-  checksum: 10c0/3d941145d0bb874a137c7aa7f8d4135f644466b0203458d3f6a17e92f68356e14d148c69d56b0434496ff237333ebe4f5f8c176aaf12856d8421567c7dd99450
+  resolution: "@sneeuwphp/ski@file:../ski#../ski::hash=34634e&locator=root-workspace-0b6124%40workspace%3A."
+  checksum: 10c0/cef7d991fa83dfd64f1a2e3d9ef0ceb4eaa8c54d57f4449f7fa33f8b4ef8ea9d7906172f52a9564740cc260263b6dd29cb2156727d350d1d5146815d217f2a41
   languageName: node
   linkType: hard
 
