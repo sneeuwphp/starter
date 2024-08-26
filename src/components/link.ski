@@ -1,5 +1,0 @@
-export default async ({ children, href }) => {
-	return (
-		<a href={href} class="hover:underline">{children}</a>
-	);
-}

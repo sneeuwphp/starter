@@ -4,15 +4,15 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5bf614d5f330abd4129f7369046d85bd",
+    "content-hash": "6f5d1d7aa06208f744e3b6090090f13f",
     "packages": [
         {
             "name": "sneeuwphp/sneeuw",
-            "version": "dev-main",
+            "version": "0.1.0",
             "dist": {
                 "type": "path",
                 "url": "../sneeuw",
-                "reference": "bdba648edc50592945cfab83be9543731f05f392"
+                "reference": "458fd2d65ed56be68deb89a207d22bc514df9b94"
             },
             "require": {
                 "php": "^8.3"
@@ -42,16 +42,15 @@
                 "sneeuw"
             ],
             "transport-options": {
+                "symlink": true,
                 "relative": true
             }
         }
     ],
     "packages-dev": [],
     "aliases": [],
-    "minimum-stability": "stable",
-    "stability-flags": {
-        "sneeuwphp/sneeuw": 20
-    },
+    "minimum-stability": "dev",
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
