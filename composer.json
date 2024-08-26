@@ -1,21 +1,25 @@
 {
   "name": "sneeuwphp/starter",
-  "description": "⛄️ A starter (template) for the Sneeuw framework.",
+  "description": "⛄️ A starter (template) for the sneeuw framework.",
   "type": "project",
   "license": "MIT",
   "autoload": {
     "psr-4": {
-      "App\\": "src/"
+      "App\\": "src/app/"
     }
   },
   "repositories": [
     {
       "type": "path",
-      "url": "../sneeuw"
+      "url": "../sneeuw",
+      "options": {
+        "symlink": true
+      }
     }
   ],
   "require": {
     "php": "^8.3",
-    "sneeuwphp/sneeuw": "@dev"
-  }
+    "sneeuwphp/sneeuw": "*"
+  },
+  "minimum-stability": "dev"
 }
